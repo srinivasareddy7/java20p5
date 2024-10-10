@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:whitesmoke
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.list {
+    width: 250px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    background-color: burlywood;
+    transition: background-color 0.2s;
+}
+
+.list:hover {
+    background-color: #e9ecef;
+}
+
+.draggable {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fc6868;
+    color: white;
+    cursor: zoom-out;
+}
